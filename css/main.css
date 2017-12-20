@@ -1,0 +1,40 @@
+* {
+  background-color: #e0b138;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Risque', cursive;
+  color: white;
+}
+
+img {
+  border-radius: 0.5rem;
+  border: 0.5rem solid white;
+}
+
+.carousel-content {
+  display: none;
+}
+
+.carousel-content.active {
+  display: block;
+}
+
+.control {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.previous, .next {
+  color: white;
+  margin: 10px 30px;
+}
+
+.control:hover, .previous:hover, .next:hover {
+  background: #4db6ac;
+  border: 1px solid #4db6ac;
+}
